@@ -1,11 +1,12 @@
 # File Project
 
 ## Objective 
-Use data structure and algorithm on a text file that has data.
+The main objective of this project is to validate the understanding of stack topic and implement it in real-life scenarios.
 
 ## Problem 
 <!-- A software company needs to store  -->
-You have an unorganized text file with a lot of data, you need to store the file content in a linked list data structure in order to do operations such as sorting, searching, adding, updating, and deleting a record/content from the text file.
+A real estate company has an unorganized text file with a lot of data, they need to extract an email from this file 
+and store the emails in a new file in reverse order. 
 
 ## Features 
 - Storing file content on a linked list.
