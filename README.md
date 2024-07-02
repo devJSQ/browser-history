@@ -24,7 +24,7 @@ Finally, the program requires a display menu to interact with, so the user can c
 - Create a method to add a new site URL to the list.
 
 
-## Use case
+## Test case
 - Retrieve the last visited site URL shall output: ```http://example.com```
 
 - Add the site URL `https://safcsp.org.sa`
