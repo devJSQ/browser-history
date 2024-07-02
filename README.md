@@ -1,27 +1,17 @@
-# File Project
+# Visited Site History Tracker
 
 ## Objective 
-The main objective of this project is to validate the understanding of stack topic and implement it in real-life scenarios.
+Use data structure and algorithm to store data from a text file.
 
 ## Problem 
-<!-- A software company needs to store  -->
-A real estate company has an unorganized text file with a lot of data, they need to extract an email from this file 
-and store the emails in a new file in reverse order. 
+You're building a program to keep track of visited site URL history, so the user can see the last visited site URL only, and also can add new sites to the history.
+
+Finally, the program requires a display menu to interact with, so the user can choose the option to view the last visited site, add a new site, or exit the program.
+
+>> The history visited the site is stored in a text file.
 
 ## Features 
-- Storing file content on a linked list.
-- Sorting a file based on the ID column. 
-- Searching for a letter/word in the file.
-- Use a Linked list to insert a new record on the file.
-
-<!--
-Check the list of requirement
-- Use a data structure 
-- Code should work
-- The returning value
--->
-
-### Code
-```
-
-```
+- Menu display to interact with the program.
+- Add a new site to the history.
+- Read the URL visited site from the history.txt file.
+- Retrieve the last visited site URL.
