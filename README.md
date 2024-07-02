@@ -6,6 +6,8 @@ Use data structure and algorithm to store data from a text file.
 ## Problem 
 You're building a program to keep track of visited site URL history, so the user can see the last visited site URL only, and also can add new sites to the history.
 
+You're bulding a program to keep track of visited site URL history. The use can navigate to the previous sites and also can navigate to new sites. 
+
 Finally, the program requires a display menu to interact with, so the user can choose the option to view the last visited site, add a new site, or exit the program.
 
 > The history visited the site is stored in a text file.
@@ -23,6 +25,10 @@ Finally, the program requires a display menu to interact with, so the user can c
 - Create a method to retrieve the last visited site URL from the list.
 - Create a method to add a new site URL to the list.
 
+## Example
+```java
+
+```
 
 ## Test case
 - Retrieve the last visited site URL shall output: ```http://example.com```
@@ -36,3 +42,10 @@ Finally, the program requires a display menu to interact with, so the user can c
 - [ ] The program shall run successfuly with any error.
 - [ ] The Program shall output shall match the use case output.
 - [ ] The program shall have all the features mentioned above.
+
+
+## Code 
+```java 
+
+
+```
