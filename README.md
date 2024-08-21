@@ -1,27 +1,26 @@
 # Visited Site History Tracker
 
 ## Objective 
-Use data structure and algorithm to store data from a text file.
+Use data structure and algorithms, to store data from a text file.
 
 ## Problem 
-You're building a program to keep track of visited site URL history, so the user can see the last visited site URL only, and also can add new sites to the history.
 
-You're building a program to keep track of visited site URL history. The user can navigate to the previous sites and also can navigate to new sites. 
+You are developing a program to simulate the management of browser history. The program needs to keep track of visited URL sites so that the user can navigate to new or previous sites.
 
-Finally, the program requires a display menu to interact with, so the user can choose the option to view the last visited site, add a new site, or exit the program.
+To interact with the program, the user requires a display menu to choose whether to view the last visited site, add a new site, or exit the program.
 
-> The history visited the site is stored in a text file.
+> The history of the visited sites is stored in a text file.
 
 ## Features 
 - Menu display to interact with the program.
 - Add a new site to the history.
-- Read the URL visited site from the history.txt file.
+- Read the URL visited site from the `history.txt` file.
 - Retrieve the last visited site URL.
 
 
 ## Implementation
-- Create a method to display the menu to interact with the program, if the user inputs 1 to retrieve the last visited site URL, 2 to add a new site URL, and 3 to exit the program.
-- Create a class `Display` which has methods to Read the history.txt file and store it in a list.
+- Create a method to display the menu to interact with the program. If the user choice is 1, retrieve the last visited site URL. If 2, add a new site URL. Lastly, if the user choice is 3, exit the program.
+- Create a class `Display` which has methods to read the `history.txt` file and store it in a list.
 - Create a method to retrieve the last visited site URL from the list.
 - Create a method to add a new site URL to the list.
 
