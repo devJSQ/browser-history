@@ -7,7 +7,7 @@ Use data structure and algorithms, to store data from a text file.
 
 You are developing a program to simulate the management of browser history. The program needs to keep track of visited URL sites so that the user can navigate to new or previous sites.
 
-To interact with the program, the user requires a display menu to choose whether to view the last visited site, add a new site, or exit the program.
+To interact with the program, the user requires a display menu to choose whether to **view the last visited site**, **add a new site**, or **exit the program**.
 
 > The history of the visited sites is stored in a text file.
 
