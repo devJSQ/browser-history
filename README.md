@@ -13,9 +13,9 @@ To interact with the program, the user requires a display menu to choose whether
 
 ## Features 
 - Menu display to interact with the program.
-- Add a new site to the history.
+- Add a new site URL to the `history.txt` file.
 - Read the URL visited site from the `history.txt` file.
-- Retrieve the last visited site URL.
+- Retrieve/pop the last visited site URL from the `history.txt` file.
 
 
 ## Implementation
