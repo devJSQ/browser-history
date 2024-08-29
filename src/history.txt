@@ -1,9 +1,3 @@
-http://example.com
-htts://google.com
-http://example.sa
-https://microsft.com
-https://csico.com
-https://udemy.com
-https://www.udacity.com
-https://www.coursera.com
-https://www.edx.com
+https://www.python.org
+https://javascript.info
+https://dev.java
