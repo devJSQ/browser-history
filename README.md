@@ -7,7 +7,7 @@ Use data structure and algorithms, to store data from a text file.
 
 You are developing a program to simulate the management of browser history. The program needs to keep track of visited URL sites so that the user can navigate to new or previous sites.
 
-To interact with the program, the user requires a display menu to choose whether to **view the last visited site**, **add a new site**, or **exit the program**.
+To interact with the program, the user requires a display menu to choose whether to **return the last visited site**, **add a new site**, or **exit the program**.
 
 > The history of the visited sites is stored in a text file.
 
@@ -19,10 +19,12 @@ To interact with the program, the user requires a display menu to choose whether
 
 
 ## Implementation
-- Create a method to display the menu to interact with the program. If the user choice is 1, retrieve the last visited site URL. If 2, add a new site URL. Lastly, if the user choice is 3, exit the program.
-- Create a class `Display` which has methods to read the `history.txt` file and store it in a list.
-- Create a method to retrieve the last visited site URL from the list.
-- Create a method to add a new site URL to the list.
+- Take an input from the user, so if the input is 1, **print the last visited site URL from** `history.txt`, if the user input is 2, **add a new site URL to the** `history.txt`, and if the input is 3 then **exit the program**.
+- Create a class `BrowserHistory` which has methods two methods `previousURL` and `addURL`.
+    - The `previousURL` method will return the last URL from the `history.txt`, and then remove it from the `history.txt`.
+    - The `addURL` method will add a URL to the `history.txt`.
+
+> Note if the user inputs 2 the `addURL` method will invoked and if the user inputs 1 the `previousURL` method will invoke.
 
 ## Example
 When the program runs, the user shall see the following menu:
@@ -34,35 +36,44 @@ _________________________
 2-> Previous site URL
 3-> Exit
 ```
-If the user enters 1, the program shall prompt the user to enter the new site URL.
+The user enters 1, the program shall return the last visited site URL and remove it from `history.txt`.
 ```
 1-> New site URL
 2-> Previous site URL
 3-> Exit
 1
-Enter site URL: safcsp.org.sa
+Previous site: https://dev.java
 ```
 
-If the user enters 2, the program shall display the last visited site URL.
+The user enters 2, the program shall prompt the user to enter a new site URL and save the URL to `history.txt`.
 ```
 1-> New site URL
 2-> Previous site URL
 3-> Exit
 2
+Enter site URL: safcsp.org.sa
+```
+
+The user enters 1, the program shall display the last visited site URL.
+```
+1-> New site URL
+2-> Previous site URL
+3-> Exit
+1
 Previous site: safcsp.org.sa
 ```
 
-If the user enters 3, the program shall exit.
+The user enters 3, the program shall exit.
 ```
 1-> New site URL
 2-> Previous site URL
 3-> Exit
 3
-Exiting...
+Goodbye...
 ```
 
 ## Test case
-- Retrieve the last visited site URL shall output: ```http://example.com```
+- Retrieve the last visited site URL shall output: ```https://dev.java```
 
 - Add the site URL `https://safcsp.org.sa`
 
@@ -77,19 +88,11 @@ Exiting...
 
 ## Code 
 ```java 
-import java.io.IOException;
+class Main {
 
-public class Main {
+    public static void main(String [] args) {
 
-    static Display display = new Display();
-    
-    static Stack stack = new Stack();
-
-    public static void main(String[] args) throws IOException {
-
-        display.readFile();
-        display.display();
+        // your code here
     }
 }
-
 ```
