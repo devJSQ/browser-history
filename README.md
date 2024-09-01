@@ -12,19 +12,29 @@ To interact with the program, the user requires a display menu to choose whether
 > The history of the visited sites is stored in a text file called [history.txt](https://github.com/SAFCSP-Team/browser-history/blob/main/src/history.txt).
 
 ## Features 
-- Menu display to interact with the program.
-- Add a new site URL to the `history.txt` file.
-- Read the URL visited site from the `history.txt` file.
-- Retrieve/pop the last visited site URL from the `history.txt` file.
+- A display menu to interact with the program.
+- Save the URL sites from the `history.txt` file into a data structure.
+- Print all the URL sites from the data structure from last to first.
+- Add a new site URL to the data structure file.
+- Retrieve/pop the last visited URL site from the data structure.
+- When the program closes update the `history.txt` file's URL with the data structure.
 
 
 ## Implementation
-- Take an input from the user, so if the input is 1, **print the last visited site URL from** `history.txt`, if the user input is 2, **add a new site URL to the** `history.txt`, and if the input is 3 then **exit the program**.
-- Create a class `BrowserHistory` which has methods two methods `previousURL` and `addURL`.
-    - The `previousURL` method will return the last URL from the `history.txt`, and then remove it from the `history.txt`.
-    - The `addURL` method will add a URL to the `history.txt`.
+- Create a menu that takes input from the user, based on the user's input do the following:
+    - 1: Print all the URL sites.
+    - 2: Add a new URL site to the data structure.
+    - 3: Return the last URL site and remove it.
+    - 4: Close the program.
 
-> Note if the user inputs 2 the `addURL` method will invoked and if the user inputs 1 the `previousURL` method will invoke.
+- Create a class `BrowserHistory` with four methods `printAll`, `previousURL`, `addURL`, and `updateFile`.
+    - Create a data structure, and save the URL site from the `history.txt` file into a data structure. 
+    - Create a method called `previousURL` that returns the last URL from the data structure and removes it.
+    - Create a method called `printALl` that prints all the URLs from the data structure.
+    - Create a method called `addURL` that adds a URL to the data strucutre.
+    - Create a method called `updateFile` that updates the URL in the `history.txt` with the data structure. 
+
+> Note if the user inputs a number a certain method will invoked. 
 
 ## Example
 When the program runs, the user shall see the following menu:
