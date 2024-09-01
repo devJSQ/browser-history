@@ -9,7 +9,7 @@ You are developing a program to simulate the management of browser history. The 
 
 To interact with the program, the user requires a display menu to choose whether to **return the last visited site**, **add a new site**, or **exit the program**.
 
-> The history of the visited sites is stored in a text file.
+> The history of the visited sites is stored in a text file called [history.txt](https://github.com/SAFCSP-Team/browser-history/blob/main/src/history.txt).
 
 ## Features 
 - Menu display to interact with the program.
