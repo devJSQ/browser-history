@@ -39,46 +39,55 @@ To interact with the program, the user requires a display menu to choose whether
 ## Example
 When the program runs, the user shall see the following menu:
 ```
-Visited site navigation
+URL history tracker program
 Enter your choice
 _________________________
-1-> New site URL
-2-> Previous site URL
-3-> Exit
+1-> Print all the URL
+2-> Add a new URL
+3-> Return the last URL
+4-> Exit
 ```
-The user enters 1, the program shall return the last visited site URL and remove it from `history.txt`.
+The user enters 1, the program shall return all the URLs.
 ```
-1-> New site URL
-2-> Previous site URL
-3-> Exit
+Enter your choice
+_________________________
+1-> Print all the URL
+2-> Add a new URL
+3-> Return the last URL
+4-> Exit
 1
-Previous site: https://dev.java
+https://www.python.org
+https://javascript.info
+https://dev.java
 ```
 
-The user enters 2, the program shall prompt the user to enter a new site URL and save the URL to `history.txt`.
+The user enters 2, the program shall prompt the user to enter a new site URL.
 ```
-1-> New site URL
-2-> Previous site URL
-3-> Exit
+1-> Print all the URL
+2-> Add a new URL
+3-> Return the last URL
+4-> Exit
 2
 Enter site URL: safcsp.org.sa
 ```
 
-The user enters 1, the program shall display the last visited site URL.
+The user enters 3, the program shall display the last visited site URL.
 ```
-1-> New site URL
-2-> Previous site URL
-3-> Exit
-1
+1-> Print all the URL
+2-> Add a new URL
+3-> Return the last URL
+4-> Exit
+3
 Previous site: safcsp.org.sa
 ```
 
-The user enters 3, the program shall exit.
+The user enters 4, the program shall exit.
 ```
-1-> New site URL
-2-> Previous site URL
-3-> Exit
-3
+1-> Print all the URL
+2-> Add a new URL
+3-> Return the last URL
+4-> Exit
+4
 Goodbye...
 ```
 
