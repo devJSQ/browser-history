@@ -14,10 +14,10 @@ To interact with the program, the user requires a display menu to choose whether
 ## Features 
 - A display menu to interact with the program.
 - Save the URL sites from the `history.txt` file into a data structure.
-- Print all the URL sites from the data structure from last to first.
-- Add a new site URL to the data structure file.
+- Print all the URL sites from the data structure.
+- Add a new site URL to the data structure.
 - Retrieve/pop the last visited URL site from the data structure.
-- When the program closes update the `history.txt` file's URL with the data structure.
+- When the program closes update the `history.txt` file's URL with the data from the data structure.
 
 
 ## Implementation
@@ -31,10 +31,10 @@ To interact with the program, the user requires a display menu to choose whether
     - Create a data structure, and save the URL site from the `history.txt` file into a data structure. 
     - Create a method called `previousURL` that returns the last URL from the data structure and removes it.
     - Create a method called `printALl` that prints all the URLs from the data structure.
-    - Create a method called `addURL` that adds a URL to the data strucutre.
+    - Create a method called `addURL` that adds a URL to the data structure.
     - Create a method called `updateFile` that updates the URL in the `history.txt` with the data structure. 
 
-> Note if the user inputs a number a certain method will invoked. 
+> Note if the user inputs a number, a certain method will be invoked. 
 
 ## Example
 When the program runs, the user shall see the following menu:
@@ -98,13 +98,6 @@ Goodbye...
 
 - Retrieve the last visited site URL shall output: ```https://safcsp.org.sa```
 
-
-## Qualification to pass
-- [ ] The program shall run successfully without any error.
-- [ ] The Program's output shall match the use case output.
-- [ ] The program shall have all the features mentioned above.
-
-
 ## Code 
 ```java 
 class Main {
@@ -115,3 +108,9 @@ class Main {
     }
 }
 ```
+
+## Qualification to pass
+- [ ] The program shall run successfully without any error.
+- [ ] The Program's output shall match the use case output.
+- [ ] The program shall have all the features mentioned above.
+
